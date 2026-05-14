@@ -1,0 +1,60 @@
+TakesScreenShot<I> 
+
+-> its an interface which consist of one abstract method which is getScreenshotAs()
+-> To access this method we should do downcasting from webdriver to TakesScreenShot
+
+why?
+-> Whenever there is diffrence between expected result and actual result
+-> To drop it in the bug / defect report
+
+ways?
+
+-> 2 ways
+
+1. Screenshot of a webpage
+2. screenshot of an element
+
+
+
+// Mouse Actions 
+
+1. mouse hover -> moveToElement()
+2. drag and drop
+3. click 
+4. right click
+5. double click
+6. scroll
+
+
+Actions --> concrete class 
+
+syntax -> Actions act = new Actions(browser address);
+
+How to perform mouse actions 
+
+-> We need to create an object of actions class and we need to pass the driver as an argument
+-> Actions act = new Actions(driver);
+
+-> use reference varibale and access the methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
