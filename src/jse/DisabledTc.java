@@ -20,7 +20,6 @@ public class DisabledTc extends WebdriverUtility
 		jse.executeScript("arguments[0].click();",disbaledCheckbox);
 		
 		
-		Alert alt = driver.switchTo().alert();
 	
 	}
 
