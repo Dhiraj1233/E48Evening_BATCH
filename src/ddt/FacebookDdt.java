@@ -37,6 +37,7 @@ public class FacebookDdt
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.name("email")).sendKeys(usn);
 		driver.findElement(By.name("pass")).sendKeys(psw);
+		System.out.println("Done");
 		
 		
 		
