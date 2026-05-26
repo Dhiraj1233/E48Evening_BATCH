@@ -14,8 +14,6 @@ ways?
 1. Screenshot of a webpage
 2. screenshot of an element
 
-
-
 // Mouse Actions 
 
 1. mouse hover -> moveToElement()
@@ -24,7 +22,6 @@ ways?
 4. right click
 5. double click
 6. scroll
-
 
 Actions --> concrete class 
 

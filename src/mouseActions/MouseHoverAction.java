@@ -15,10 +15,26 @@ public class MouseHoverAction
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));// 3rd line of code
 		driver.get("https://demoapps.qspiders.com/ui/mouseHover?sublist=0");
-		// in the broswer manage the wait using implicit way
 		WebElement ele = driver.findElement(By.xpath("//h1[text()='Password : ']/following-sibling::div/img[2]"));
+		
 		Actions act = new Actions(driver);
 		act.moveToElement(ele).perform();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		// in the broswer manage the wait using implicit way
+//		WebElement ele = driver.findElement(By.xpath("//h1[text()='Password : ']/following-sibling::div/img[2]"));
+//		Actions act = new Actions(driver);
+//		act.moveToElement(ele).perform();
 //		act.contextClick(ele).perform();	
 		
 		
