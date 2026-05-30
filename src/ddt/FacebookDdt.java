@@ -18,7 +18,7 @@ public class FacebookDdt
 	public static void main(String[] args) throws IOException {
 		
 		//step: Read the data from excel
-		
+		ExcelUtility xl=new ExcelUtility("./Excel/TestDataE48.xlsx");
 		FileInputStream fis = new FileInputStream("./Excel/TestDataE48.xlsx");
 		XSSFWorkbook book = new XSSFWorkbook(fis);
 		XSSFSheet sheet = book.getSheet("Sheet1");
